@@ -32,7 +32,7 @@ p{
    min-height: 100vh;
    display: flex;
    flex-direction: column;
-   background: url(../img/building-3.jpg) fixed no-repeat;
+   background: url(../img/SS_horror_Another.jpg) fixed no-repeat;
    background-position: center;
    background-size: cover;
 }
@@ -556,7 +556,7 @@ p{
 .divSix{
    width: 100%;
    min-height: 400px;
-   background: url(../img/overlay.jpg) fixed no-repeat;
+   background: url(../img/horror.jpg) fixed no-repeat;
    background-size: cover;
 }
 
