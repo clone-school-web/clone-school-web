@@ -26,109 +26,109 @@ p {
 }
 
 /* Div one starts ========================== */
-.coverDiv {
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  background: url(../img/building-3.jpg) fixed no-repeat;
-  background-position: center;
-  background-size: cover;
+.coverDiv{
+   width: 100%;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   background: url(../img/all-fighter.jpg) fixed no-repeat;
+   background-position: center;
+   background-size: cover;
 }
 
-.coverDiv .mainHeader {
-  width: 100%;
-  height: 80px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: rgba(0, 0, 0, 0.7);
-  padding-inline: max(5%, 50px);
-  padding-top: 10px;
+.coverDiv .mainHeader{
+   width: 100%;
+   height: 80px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: rgba(0, 0, 0, 0.7);
+   padding-inline: max(5%, 50px);
+   padding-top: 10px;
 }
 
-.coverDiv .mainHeader .logoSec {
-  width: auto;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.coverDiv .mainHeader .logoSec{
+   width: auto;
+   height: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
-.coverDiv .mainHeader .logoSec > i {
-  font-size: xx-large;
-  color: red;
-  overflow: hidden;
+.coverDiv .mainHeader .logoSec>i{
+   font-size: xx-large;
+   color: red;
+   overflow: hidden;
 }
 
-.coverDiv .mainHeader .logoSec > span {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bold;
-  color: white;
-  padding-left: 5px;
-  font-size: large;
+.coverDiv .mainHeader .logoSec>span{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bold;
+   color: white;
+   padding-left: 5px;
+   font-size: large;
 }
 
-.coverDiv .mainHeader .navItems {
-  width: auto;
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.coverDiv .mainHeader .navItems{
+   width: auto;
+   height: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
-.coverDiv .mainHeader .navItems > span {
-  position: relative;
-  width: auto;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.coverDiv .mainHeader .navItems>span{
+   position: relative;
+   width: auto;
+   height: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
-.coverDiv .mainHeader .navItems > span > a {
-  color: white;
-  text-decoration: none;
-  padding: 10px 15px 10px;
-  font-weight: bold;
+.coverDiv .mainHeader .navItems>span>a{
+   color: white;
+   text-decoration: none;
+   padding: 10px 15px 10px;
+   font-weight: bold;
 }
 
-.coverDiv .mainHeader .navItems > span > a::after {
-  content: " ";
-  width: 0%;
-  height: 5%;
-  background-color: red;
-  position: absolute;
-  bottom: 0;
-  right: 0%;
-  transition: 0.5s;
+.coverDiv .mainHeader .navItems>span>a::after{
+   content: " ";
+   width: 0%;
+   height: 5%;
+   background-color: red;
+   position: absolute;
+   bottom: 0;
+   right: 0%;
+   transition: 0.5s;
 }
 
-.coverDiv .mainHeader .navItems > span:hover > a::after {
-  left: 0%;
-  width: 95%;
+.coverDiv .mainHeader .navItems>span:hover>a::after{
+   left: 0%;
+   width: 95%;
 }
 
-.coverDiv .mainHeader .hamburgerIcon {
-  display: none;
-  width: auto;
-  height: auto;
-  color: white;
-  overflow: hidden;
+.coverDiv .mainHeader .hamburgerIcon{
+   display: none;
+   width: auto;
+   height: auto;
+   color: white;
+   overflow: hidden;
 }
 
-.coverDiv .mainHeader .hamburgerIcon > i {
-  font-size: x-large;
+.coverDiv .mainHeader .hamburgerIcon>i{
+   font-size: x-large;
 }
 
-.coverDiv .mainDiv {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: calc(100vh - 80px);
-  background-color: rgba(0, 0, 0, 0.7);
-  position: relative;
+.coverDiv .mainDiv{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: calc(100vh - 80px);
+   background-color: rgba(0, 0, 0, 0.7);
+   position: relative;
 }
 
 .coverDiv .mainDiv .mainSec {
